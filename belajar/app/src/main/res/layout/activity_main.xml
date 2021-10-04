@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#56AFF6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="400dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/polijelogo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POLITEKNIK NEGERI JEMBER"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="2dp" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:text="login" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="monospace"
+        android:gravity="left"
+        android:text="Sign Up?"
+        android:textColor="#0000FF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
