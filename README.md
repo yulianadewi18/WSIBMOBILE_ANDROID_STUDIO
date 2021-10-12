@@ -3,6 +3,7 @@ NIM : E41200315
 TIF-A
 --------------------
 Hasil output :
+MINGGU4
 1. ListView
     ![image](https://user-images.githubusercontent.com/75105622/135960632-afd65e40-1cda-46d7-93ec-89b9426c2fd4.png)
 
@@ -14,5 +15,10 @@ Hasil output :
 
 4. RecyclerView :
     ![image](https://user-images.githubusercontent.com/75105622/135960829-64358f91-3a6f-4b04-a93a-6ce11a30c64b.png)
+    
+MINGGU5
+1. Fragment Bottom Navigation :
+    ![image](https://user-images.githubusercontent.com/75105622/136979497-6fe446dd-5e11-49ee-ba8e-58aad14d2663.png)
+
 
 
