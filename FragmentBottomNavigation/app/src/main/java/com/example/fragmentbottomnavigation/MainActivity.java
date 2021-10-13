@@ -30,16 +30,16 @@ public class MainActivity extends AppCompatActivity {
                 Fragment selectedFragment = null;   //membuat objek dari fragment dan memberi nilai awal 0
 
                 switch (item.getItemId()){
-                    case R.id.tv_home:
+                    case R.id.home_menu:
                         selectedFragment = new Fragment_home();
                         break;
-                    case R.id.tv_search:
+                    case R.id.search_menu:
                         selectedFragment = new Fragment_search();
                         break;
-                    case R.id.tv_favorite:
+                    case R.id.favorite_menu:
                         selectedFragment = new Fragment_favorite();
                         break;
-                    case R.id.tv_account:
+                    case R.id.account_menu:
                         selectedFragment = new Fragment_account();
                         break;
                 }
