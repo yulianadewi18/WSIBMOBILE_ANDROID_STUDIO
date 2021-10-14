@@ -40,6 +40,10 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="93dp"
+<<<<<<< HEAD
         android:text="TIF A 2020"
+=======
+        android:text="TIF A 2020 "
+>>>>>>> 09f92b42d9da73bc02ac1fd10f78154e28aa3d32
         android:textSize="20sp" />
 </RelativeLayout>
