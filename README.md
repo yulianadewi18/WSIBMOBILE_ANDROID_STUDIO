@@ -23,11 +23,11 @@ MINGGU5
 MINGGU 6
 - INTENT
 1. hasil output intent app
-![image](https://user-images.githubusercontent.com/75105622/137284925-758e2143-01b4-43f1-a5e0-7779ea7e0058.png)
+    ![image](https://user-images.githubusercontent.com/75105622/137284925-758e2143-01b4-43f1-a5e0-7779ea7e0058.png)
 2. ketika button instagram di klik akan diarahkan ke browser instagram
-![image](https://user-images.githubusercontent.com/75105622/137285179-ee9d2706-e032-452d-9532-9f11a1152a77.png)
-4. ketika di klik button whatsapp akan diarahkan ke personal chat whatsapp 
-![image](https://user-images.githubusercontent.com/75105622/137285455-0e757043-884d-4dd7-89ca-25c050d109a9.png)
+    ![image](https://user-images.githubusercontent.com/75105622/137285179-ee9d2706-e032-452d-9532-9f11a1152a77.png)
+3. ketika di klik button whatsapp akan diarahkan ke personal chat whatsapp 
+    ![image](https://user-images.githubusercontent.com/75105622/137285455-0e757043-884d-4dd7-89ca-25c050d109a9.png)
 
 
 
