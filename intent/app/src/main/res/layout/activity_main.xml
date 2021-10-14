@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    // Implicit Intent
+    // Membuat button untuk mengarahkan pengguna untuk menelepon admin melalui dial telepon
+    <Button
+        android:text="instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnpgl"
+        android:onClick="instagram"
+        />
+
+    // Membuat button untuk mengarahkan pengguna untuk chat admin melalui whatsapp
+    <Button
+        android:text="Chat Whatsapp Admin "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnpgl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/btnwhatsapp"
+        android:onClick="whatsapp"/>
+
+    // Explicit Intent
+    <Button
+        android:text="About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnwhatsapp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/btninfo"
+        android:onClick="about"/>
+
+</RelativeLayout>
