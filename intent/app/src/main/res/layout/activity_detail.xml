@@ -12,7 +12,7 @@
 
     // Membuat isi konten ketika klik about
     <TextView
-        android:text="Nama : Anton Sebrianto"
+        android:text="Nama : Yuliana Dewi"
         android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="62dp"
-        android:text="NIM : E41200619"
+        android:text="NIM : E41200315"
         android:textSize="20sp" />
 
     <TextView
@@ -40,6 +40,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="93dp"
-        android:text="TIF 2020 Golongan B"
+        android:text="TIF A 2020"
         android:textSize="20sp" />
 </RelativeLayout>
